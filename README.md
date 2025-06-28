@@ -13,7 +13,7 @@ https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11
 
 # Desafio
 Ao procurar Pesquisa de IA, ou IA search seremos direcionados a esta URL: https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/~/CognitiveSearch.  
-Embora tenha feito a conta na azure e feito o passo a passo, não encontrei os arquivos disponibilizados de reviews fakes.  
+Embora tenha feito a conta na azure e feito o passo a passo, não processei as reviews por falta de créditos.  
 Será necessário a criação em 3 partes. A primeira é necessário criar o recurso de pesquisa de IA, no link acima. Importante ter em mente o grupo de recurso que será criado, pois para as próximas partes iso será importante.    
 A segunda parte sendo a criação da máquina para pesquisa de IA, onde é necessário criar um recurso de inteligência artificial em Criar um recurso> IA + machine learning >Azure IA services.  
 Após esta criação de recurso é necessária a terceira - a conta de armazenamento. https://portal.azure.com/#browse/Microsoft.Storage%2FStorageAccounts. Lembrando que o resource group deve ser o mesmo dos dois acima. Aqui será utilizado para armazenamento dos dados que serão tratados, podendo estes serem separados em containers, files, queues e tabelas.  Para o teste em questão será necessário quebrar um regra do storage account. A regra de acessos anônimos para as informações (Allow Blolb anonymous acess - Enabled). No caso mostrado seria necessário descompactar a pasta com as reviews fornecidas, ir em container e fazer o upload das informações.  
